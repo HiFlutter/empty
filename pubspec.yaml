@@ -1,0 +1,26 @@
+name: empty
+description: A widget that displays states of screen like loadingType, error, empty etc.
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  gap: ^2.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+
+
+flutter:
+  assets:
+    - assets/images/
+
