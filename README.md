@@ -11,29 +11,29 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A widget that displays states of screen like loadingType, error, empty etc.
 
-## Features
+## Screenshot
+<img width="270" height="480" src="https://github.com/HiFlutter/empty/blob/master/iamges/device-2022-01-26-145706.gif"/>
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
 
 ## Getting started
+pubspec.yaml
+```dart
+    dependencies:
+      flutter_loadmore_any: <latest_version>
+```
+Import it
+```dart
+    import 'package:flutter_empty/flutter_empty.dart';
+```
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
 ```dart
-const like = 'sample';
+EmptyView(
+      widget: Text('内容'),
+      loading: true,
+    )
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
