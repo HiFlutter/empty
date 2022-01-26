@@ -101,7 +101,8 @@ class EmptyView extends StatelessWidget {
 
     list.add(emptyImage ??
         Image.asset(
-          'assets/images/ic_resultl_empty.webp',
+          'assets/images/ic_result_empty.webp',
+          package: 'flutter_empty',
           width: imageSize,
           height: imageSize,
         ));
@@ -133,6 +134,7 @@ class EmptyView extends StatelessWidget {
     list.add(errorImage ??
         Image.asset(
           'assets/images/ic_result_network.webp',
+          package: 'flutter_empty',
           width: imageSize,
           height: imageSize,
         ));
