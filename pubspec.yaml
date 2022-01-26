@@ -1,7 +1,7 @@
 name: flutter_empty
 description: A widget that displays states of screen like loadingType, error, empty etc.
 version: 0.0.1
-homepage:
+homepage: https://github.com/HiFlutter/empty.git
 
 environment:
   sdk: ">=2.15.0 <3.0.0"
